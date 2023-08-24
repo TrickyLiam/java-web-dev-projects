@@ -1,4 +1,4 @@
-public class arrayPractice {
+public class ArrayPractice {
 
     public static void main(String[] args) {
 
@@ -9,7 +9,6 @@ public class arrayPractice {
         }
 
     }
-
 
 
 }
