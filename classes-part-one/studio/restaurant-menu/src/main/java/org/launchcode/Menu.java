@@ -15,13 +15,12 @@ public class Menu {
     public void setLastUpdated(Date lastUpdated) {
         this.lastUpdated = lastUpdated;
     }
+    public Date getLastUpdated() {
+        return lastUpdated;
+    }
 
     public void setItems(ArrayList<MenuItem> items) {
         this.items = items;
-    }
-
-    public Date getLastUpdated() {
-        return lastUpdated;
     }
 
     public ArrayList<MenuItem> getItems() {

@@ -6,11 +6,11 @@ public class MenuItem {
     private String category;
     private boolean isNew;
 
-    public MenuItem(double p, String d, String c, boolean iN) {
+    public MenuItem(double p, String d, String c, boolean in) {
         this.price = p;
         this.description = d;
         this.category = c;
-        this.isNew = iN;
+        this.isNew = in;
     }
 
     public void setPrice(double price) {
