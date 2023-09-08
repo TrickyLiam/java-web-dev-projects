@@ -8,11 +8,11 @@ public class MenuItem {
     private String name;
 
     public MenuItem(double p, String d, String c, boolean iN, String n) {
-        this.price = p;
-        this.description = d;
-        this.category = c;
-        this.isNew = iN;
-        this.name = n;
+        price = p;
+        description = d;
+        category = c;
+        isNew = iN;
+        name = n;
     }
 
     @Override
@@ -60,8 +60,12 @@ public class MenuItem {
         return this.name;
     }
 
-    public Boolean isEqual(Object toBeCompared) {
-        MenuItem item = (MenuItem) toBeCompared;
-        return item.getName().equals(getName());
+//    public Boolean isEqual(Object toBeCompared) {
+//        MenuItem item = (MenuItem) toBeCompared;
+//        return item.getName().equals(getName());
+//    }
+
+    public Boolean isEqual(MenuItem toBeCompared) {
+        return toBeCompared.getName().equals(getName());
     }
 }
